@@ -1,0 +1,33 @@
+ALGORITHM Lenght
+VAR
+    c:char;
+    phrase: string;
+    n_car,n_mot,n_voy : integer;
+
+
+
+BEGIN
+    n_car=0;
+    n_mot=0;
+    n_voy=0;
+    read (c);
+     while (c<> '.') {
+
+         n_char = n_char+1;
+         if (c==' ')
+         {
+             n_mot = n_mot+1;
+         }
+         if c in {'a','e','i','u''o','y'}
+         {
+             n_voy=n_voy+1;
+         }
+         
+     } read (c);
+     write ("le nombre de carrectere est " n_chat, "le nombre de mot est ", n_mot, "nombre de voyelle est ", n_voy);
+     
+
+
+
+
+END
